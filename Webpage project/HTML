@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plant Therapy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="nav-banner">
+        <h1>Wellness</h1>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#Music">Music</a></li>
+        <li><a href="#Fitness">Fitness</a></li>
+        <li><a href="#Plants">Plants</a></li>
+      </ul>
+    </nav>
+  </header>  
+  
+
+  <main>
+    <section id="hero">
+      <div class="hero-content">
+        <h2>Discover the Link Between House Plants and Mental Health</h2>
+        <p>Embrace the healing power of nature in your daily life.</p>
+        <a href="#benefits" class="btn">Explore Benefits</a>
+      </div>
+    </section>
+
+    <section id="implementation">
+      <div class="implementation-content">
+        <h2>Implementing Plant Therapy in Your Life</h2>
+        <p>Follow these tips to incorporate plants into your daily routine and improve your mental well-being:</p>
+        <ul>
+          <li>Choose low-maintenance house plants that suit your lifestyle.</li>
+          <li>Create a dedicated space for your plants to thrive.</li>
+          <li>Develop a watering and care routine that suits each plant's needs.</li>
+          <li>Explore different plant species to create a diverse indoor ecosystem.</li>
+          <li>Engage with your plants through pruning, repotting, and other nurturing activities.</li>
+        </ul>
+      </div>
+      <div class="flip-container">
+        <div class="flipper">
+          <div class="front">
+            <img src="https://images.unsplash.com/photo-1487700160041-babef9c3cb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2052&q=80" alt="A beautiful plant">
+          </div>
+          <div class="back">
+            <div class="card">
+              <p>Boo!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+    <section id="benefits">
+      <h2>Benefits of House Plants for Mental Health</h2>
+      <div class="benefits-grid">
+        <div class="benefit">
+          <h3>Reduced Stress</h3>
+          <p>Surrounding yourself with greenery can help reduce stress and promote relaxation.</p>
+        </div>
+        <div class="benefit">
+          <h3>Improved Air Quality</h3>
+          <p>House plants purify the air by removing toxins and releasing oxygen, leading to better indoor air quality.</p>
+        </div>
+        <div class="benefit">
+          <h3>Enhanced Mood</h3>
+          <p>Studies have shown that being around plants can boost mood and increase feelings of happiness.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="care">
+      <h2>Plant Care Guidelines</h2>
+      <p>Ensure the well-being of your house plants with these care guidelines:</p>
+      <ol>
+        <li>Provide adequate sunlight based on each plant's requirements.</li>
+        <li>Water your plants regularly, avoiding both overwatering and underwatering.</li>
+        <li>Use well-draining soil and pots with drainage holes.</li>
+        <li>Fertilize plants according to their specific needs.</li>
+        <li>Monitor for pests and take appropriate measures to control infestations.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Wellness. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+ 

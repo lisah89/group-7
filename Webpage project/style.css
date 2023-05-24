@@ -1,0 +1,208 @@
+@font-face {
+  font-family: ny;
+  src: url(fonts/Inknut_Antiqua/InknutAntiqua-Medium.ttf);
+}
+
+@font-face {
+  font-family: QS;
+  src: url(fonts/Quicksand/Quicksand-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: ny, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  letter-spacing: 3px;
+}
+
+header {
+  background-color: #222;
+  font-family: ny;
+}
+
+.nav-links {
+  font-family: ny;
+}
+
+ul {
+  font-family: qs;
+}
+
+ol {
+  font-family: qs;
+}
+
+.nav-banner {
+  padding: 20px;
+  text-align: left;
+}
+
+.nav-banner h1 {
+  font-size: 24px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-banner h1 {
+  margin: 0;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin: 20px;
+}
+
+.nav-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 15px;
+  font-family: qs;
+}
+
+.btn {
+  font-family: qs;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5c5a5a;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.benefit {
+  font-family: qs;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #fff;
+}
+
+.flip-container {
+  perspective: 1000px;
+}
+
+.flipper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform-style: preserve-3d;
+  transition: transform 0.6s;
+}
+
+.front,
+.back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.front {
+  z-index: 2;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+
+.flip-container.flip .flipper {
+  transform: rotateY(180deg);
+}
+
+.flipper {
+  position: relative;
+  width: 100%;
+  max-width: 200px; 
+  height: auto;
+  transition: transform 0.6s;
+}
+
+section#implementation {
+  display: flex;
+  align-items: center;
+}
+
+section#implementation .implementation-content {
+  flex-basis: 50%;
+  padding-right: 50px;
+}
+
+section#implementation ul {
+  margin-bottom: 10px;
+}
+
+section#implementation .flip-container {
+  flex-basis: 50%;
+}
+
+section#implementation .flipper {
+  width: 100%;
+  height: auto;
+}
+
+section#implementation .front img {
+  width: 100%;
+  height: auto;
+}
+
+section#implementation .back .card {
+  background-color: #f2f2f2;
+  border: 2px solid #f2f2f2;
+  padding: 36px;
+}
